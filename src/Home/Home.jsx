@@ -28,7 +28,7 @@ import myImage from "../assets/image.png";
 import yelpcampimg from "../assets/projectImages/yelpcamp.png";
 import countryinfoimg from "../assets/projectImages/countryinfo.png";
 import bloodharmonyimg from "../assets/projectImages/bloodharmony.png";
-import logo from "../assets/logo.png";
+import logo from "../assets/Alogo.png";
 import "./Home.css";
 import { Typewriter } from "react-simple-typewriter";
 import AOS from "aos";
@@ -45,9 +45,9 @@ class Home extends Component {
             <img
               src={logo}
               alt=""
-              style={{ width: "25px", paddingBottom: "5px" }}
+              style={{ width: "50px", paddingBottom: "5px" }}
             />{" "}
-            Saran
+            Aravindhakumar
           </a>
           <button
             className="navbar-toggler"
@@ -95,14 +95,14 @@ class Home extends Component {
             <div className="row mx-auto">
               <div className="col-sm  pt-5">
                 <h1 className="header fw-bolder">
-                  I'm Saran, Skilled in
+                  I'm Aravindhakumar, Skilled in
                   <br />{" "}
                   <span style={{ color: "#A6B1E1" }}>
                     <Typewriter
                       words={[
-                        "Full Stack Developement",
-                        "Web design",
-                        "MEAN Stack",
+                        "Data Analytics",
+                        "Data Science",
+                        "Machine Learning",
                       ]}
                       loop={100000000000}
                       cursor
@@ -127,7 +127,7 @@ class Home extends Component {
               <div className="col-sm text-center  pt-5 ">
                 <div data-aos="fade-right" data-aos-duration="1000">
                   <a
-                    href="https://github.com/saran-mani"
+                    href="https://github.com/U-Aravindhakumar"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -160,7 +160,7 @@ class Home extends Component {
                 <br />
                 <div data-aos="fade-right" data-aos-duration="2000">
                   <a
-                    href="mailto:saranmvdm@gmail.com"
+                    href="mailto:msdaravind92@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -209,11 +209,16 @@ class Home extends Component {
               data-aos-duration="1400"
             >
               <p className="px-3 pt-3 intro">
-                Hey there, I'm Saran! 👋 As a web developer, I thrive on turning
-                ideas into captivating digital experiences. My toolkit includes
-                Node.js, Express.js, MongoDB, Angular, and React – all fueled by
-                my passion for JavaScript. 🚀 Let's collaborate and bring your
-                web projects to life! 💻✨
+                Hey there, I'm Aravindhakumar! 👋 i am currently studing in my
+                bachelor degree with a strong passion for data science and it's
+                transformative potantial. I holding my analytical skilla and
+                devloped a solid foundation in ststistics, programming and
+                machine learning. <br /> <br /> Exploring the world if data: My fascination
+                with extracting meaningful insigts from raw data has driven me
+                to delve into various projects that shoecase my abilities in
+                data analysis and visualization. <br /> <br />I am adept at tools like
+                Python,SQL,Power-BI,Tableau and have hands-on experience with
+                popular data science libraries and frameworks.
               </p>
             </div>
           </div>
@@ -406,13 +411,18 @@ class Home extends Component {
         </div>
         {/* SKILLS SECTION */}
         <div id="skills" className="container-fluid skills">
-          <h1 className="text-center py-3"  data-aos="fade-right"
-              data-aos-duration="1000">Skills</h1>
+          <h1
+            className="text-center py-3"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            Skills
+          </h1>
           <div className="row">
             <div className="col-sm">
               <div id="skill-icon">
                 <img
-                  src={jsIcon}
+                  src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png"
                   alt=""
                   data-aos="zoom-in"
                   data-aos-duration="1000"
@@ -487,11 +497,11 @@ class Home extends Component {
           <div className="row ">
             <div className="col-sm">
               <p>
-                <a href="tel:+91 6379710438">Phone:6379710438</a>
+                <a href="tel:+91 9360379653">Phone:9360379653</a>
               </p>
               <p>
-                <a href="mailto:saranmvdm@gmail.com">
-                  Email:saranmvdm@gmail.com
+                <a href="mailto:msdaravind92@gmail.com">
+                  Email:msdaravind92@gmail.com
                 </a>
               </p>
             </div>
@@ -508,7 +518,7 @@ class Home extends Component {
               </p>
               <p>
                 <a
-                  href="https://github.com/saran-mani/"
+                  href="https://github.com/U-Aravindhakumar"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -518,7 +528,7 @@ class Home extends Component {
               </p>
               <p>
                 <a
-                  href="https://www.instagram.com/mj__saran/"
+                  href="https://www.instagram.com/aravind._.msd"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -528,7 +538,7 @@ class Home extends Component {
               </p>
               <p>
                 <a
-                  href="https://wa.me/qr/OZJYSTAFSDJGH1"
+                  href="https://wa.me/qr/E2365O26SS5HD1"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -541,7 +551,7 @@ class Home extends Component {
           <hr />
           <div className="row">
             <div className="col-sm text-center">
-              <h4>Saran Codes</h4>
+              <h4>© Aravind Data-Book</h4>
             </div>
           </div>
         </div>
