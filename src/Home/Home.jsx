@@ -24,9 +24,9 @@ import bootstrapSvg from "../assets/icons/bootstrap.svg";
 import tailwindcssSvg from "../assets/icons/tailwindcss.svg";
 import angularmatSvg from "../assets/icons/angularmat.svg";
 import emailSvg from "../assets/icons/email.svg";
-import myImage from "../assets/image.png";
-import yelpcampimg from "../assets/projectImages/yelpcamp.png";
-import countryinfoimg from "../assets/projectImages/countryinfo.png";
+import myImage from "../assets/aravindmsd.jpg";
+import fooddeliviry from "../assets/projectImages/download.jpg";
+import countryinfoimg from "../assets/projectImages/t20.png";
 import bloodharmonyimg from "../assets/projectImages/bloodharmony.png";
 import logo from "../assets/Alogo.png";
 import "./Home.css";
@@ -100,8 +100,8 @@ class Home extends Component {
                   <span style={{ color: "#A6B1E1" }}>
                     <Typewriter
                       words={[
-                        "Data Analytics",
                         "Data Science",
+                        "Data Analytics",
                         "Machine Learning",
                       ]}
                       loop={100000000000}
@@ -142,7 +142,7 @@ class Home extends Component {
                 <div data-aos="fade-right" data-aos-duration="1500">
                   {" "}
                   <a
-                    href="https://www.linkedin.com/in/saranmj/"
+                    href="https://www.linkedin.com/in/u-aravindhakumar-15b983272/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -206,19 +206,20 @@ class Home extends Component {
             <div
               className="col-sm text-center  pt-5"
               data-aos="fade-up"
-              data-aos-duration="1400"
+              data-aos-duration="3000"
             >
               <p className="px-3 pt-3 intro">
                 Hey there, I'm Aravindhakumar! 👋 i am currently studing in my
                 bachelor degree with a strong passion for data science and it's
                 transformative potantial. I holding my analytical skilla and
                 devloped a solid foundation in ststistics, programming and
-                machine learning. <br /> <br /> Exploring the world if data: My fascination
-                with extracting meaningful insigts from raw data has driven me
-                to delve into various projects that shoecase my abilities in
-                data analysis and visualization. <br /> <br />I am adept at tools like
-                Python,SQL,Power-BI,Tableau and have hands-on experience with
-                popular data science libraries and frameworks.
+                machine learning. <br /> <br /> Exploring the world if data: My
+                fascination with extracting meaningful insigts from raw data has
+                driven me to delve into various projects that shoecase my
+                abilities in data analysis and visualization. <br /> <br />I am
+                adept at tools like Python,SQL,Power-BI,Tableau and have
+                hands-on experience with popular data science libraries and
+                frameworks.
               </p>
             </div>
           </div>
@@ -239,37 +240,57 @@ class Home extends Component {
                 data-aos="fade-up"
                 data-aos-duration="1500"
               >
-                <img src={yelpcampimg} className="card-img-top" alt="..." />
+                <img src={fooddeliviry} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Yelp Camp</h5>
+                  <h5 className="card-title">Food Deliviry Time prediction</h5>
                   <div className="d-flex flex-row mb-3" id="builtwith">
                     <div className="p-2">
-                      <img src={nodejsSvg} alt="" />
+                      <img
+                        src="https://pluspng.com/img-png/python-logo-png-open-2000.png"
+                        alt=""
+                        width="35px"
+                        height="35px"
+                      />
                     </div>
                     <div className="p-2">
-                      <img src={expressSvg} alt="" />
+                      <img
+                        src="https://avatars2.githubusercontent.com/u/365630?v=3&s=400"
+                        alt=""
+                        width="35px"
+                        height="35px"
+                      />
                     </div>
                     <div className="p-2">
-                      <img src={mongodbSvg} alt="" />
+                      <img
+                        src="https://optivia.com.au/wp-content/uploads/2020/12/tableau.jpg"
+                        alt=""
+                        width="35px"
+                        height="35px"
+                      />
                     </div>
                     <div className="p-2">
-                      <img src={ejsSvg} alt="" />
+                      <img
+                        src="https://everipedia-storage.s3.amazonaws.com/ProfilePicture/en/Plotly__a0a015/Plotly-logo-01-square.png__95275.png"
+                        alt=""
+                        width="35px"
+                        height="35px"
+                      />
                     </div>
-                    <div className="p-2">
+                    {/* <div className="p-2">
                       <img src={bootstrapSvg} alt="" />
-                    </div>
+                    </div> */}
                   </div>
                   <div className="card-text">
                     <ul>
                       <li>
-                        Yelp Camp allows hassle-free user registration, camp
-                        creation with images, and provides a simple review
-                        system for sharing experiences.
+                        Food Deliviry Time Prediction Project is used to predict
+                        the Deliviry time by using previous dataset and Machine
+                        learning model.
                       </li>
                       <li>
-                        Each camp gets its dedicated page for straightforward
-                        information and reviews, streamlining the user
-                        experience in exploring and evaluating camping options.
+                        This Project is based on Distance B/W Restarunt and User
+                        location,Deliviry-man Age and Retings to predict the
+                        Deliviry Time.
                       </li>
                     </ul>
                   </div>
@@ -283,7 +304,7 @@ class Home extends Component {
                   </a>
                   <br />
                   <a
-                    href="https://github.com/saran-mani/YelpCamp"
+                    href="https://github.com/U-Aravindhakumar/food-delivery-time-prediction"
                     rel="noreferrer"
                     target="_blank"
                     className="btn btn-dark"
@@ -305,26 +326,38 @@ class Home extends Component {
                   <h5 className="card-title">Countries Info</h5>
                   <div className="d-flex flex-row mb-3" id="builtwith">
                     <div className="p-2">
-                      <img src={nodejsSvg} alt="" />
+                      <img
+                        src="https://pluspng.com/img-png/python-logo-png-open-2000.png"
+                        alt=""
+                        width="35px"
+                        height="35px"
+                      />
                     </div>
                     <div className="p-2">
-                      <img src={angularSvg} alt="" />
+                      <img
+                        src="https://optivia.com.au/wp-content/uploads/2020/12/tableau.jpg"
+                        alt=""
+                        width="35px"
+                        height="35px"
+                      />
                     </div>
                     <div className="p-2">
-                      <img src={bootstrapSvg} alt="" />
+                      <img
+                        src="https://everipedia-storage.s3.amazonaws.com/ProfilePicture/en/Plotly__a0a015/Plotly-logo-01-square.png__95275.png"
+                        alt=""
+                        width="35px"
+                        height="35px"
+                      />
                     </div>
                   </div>
                   <div className="card-text">
                     <ul>
                       <li>
-                        Developed a dynamic web application, "Countries Info,"
-                        leveraging the Restcountries API to provide
-                        comprehensive data on global countries.
-                      </li>
-                      <li>
-                        Implemented a dynamic search bar using Angular and the
-                        Restcountries API, enhancing user navigation and
-                        engagement with real-time data.
+                        Analysing the T20 worldcup 2022 by using the all match
+                        datas including group stages. To analyze the who is best
+                        batter and bower,who score more runs and who takes more
+                        no.of wickets,which team won high matchs,who won
+                        multiple awards by using Python and tablaue.
                       </li>
                     </ul>
                   </div>
@@ -338,7 +371,7 @@ class Home extends Component {
                   </a>
                   <br />
                   <a
-                    href="https://github.com/saran-mani/countries-info.git"
+                    href="https://github.com/U-Aravindhakumar/T20-worldcup-2022-analysis"
                     rel="noreferrer"
                     target="_blank"
                     className="btn btn-dark"
@@ -428,25 +461,25 @@ class Home extends Component {
                   data-aos-duration="1000"
                 />
                 <img
-                  src={nodeIcon}
+                  src="https://www.pngrepo.com/download/373938/numpy.png"
                   alt=""
                   data-aos="zoom-in"
                   data-aos-duration="1100"
                 />
                 <img
-                  src={angularIcon}
+                  src="https://www.programsbuzz.com/sites/default/files/logo/pandas-logo.png"
                   alt=""
                   data-aos="zoom-in"
                   data-aos-duration="1200"
                 />
                 <img
-                  src={reactIcon}
+                  src="https://numfocus.org/wp-content/uploads/2016/07/Matplotlib_Logo_191209.png"
                   alt=""
                   data-aos="zoom-in"
                   data-aos-duration="1300"
                 />
                 <img
-                  src={expressIcon}
+                  src="https://www.corpnce.com/wp-content/themes/archi/dataimg/sql1.png"
                   alt=""
                   data-aos="zoom-in"
                   data-aos-duration="1400"
@@ -458,7 +491,7 @@ class Home extends Component {
                   data-aos-duration="1500"
                 />
                 <img
-                  src={ejsIcon}
+                  src="https://www.tigloo.es/wp-content/uploads/2021/08/Power_BI_Logo-1.png"
                   alt=""
                   data-aos="zoom-in"
                   data-aos-duration="1600"
@@ -476,13 +509,13 @@ class Home extends Component {
                   data-aos-duration="1800"
                 />
                 <img
-                  src={bootstrapIcon}
+                  src="https://optivia.com.au/wp-content/uploads/2020/12/tableau.jpg"
                   alt=""
                   data-aos="zoom-in"
                   data-aos-duration="1900"
                 />
                 <img
-                  src={npmIcon}
+                  src="https://avatars2.githubusercontent.com/u/365630?v=3&s=400"
                   alt=""
                   data-aos="zoom-in"
                   data-aos-duration="2000"
@@ -508,7 +541,7 @@ class Home extends Component {
             <div className="col-sm">
               <p>
                 <a
-                  href="https://www.linkedin.com/in/saranmj/"
+                  href="https://www.linkedin.com/in/u-aravindhakumar-15b983272/"
                   target="_blank"
                   rel="noreferrer"
                 >
