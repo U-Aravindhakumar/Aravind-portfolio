@@ -377,12 +377,12 @@ class Home extends Component {
                     className="btn btn-dark"
                   >
                     <img src={githubIcon} alt="" />
-                    source code
+                    source code ...
                   </a>
                 </div>
               </div>
             </div>
-            {/* <div className="col-sm-4">
+            <div className="col-sm-4">
               <div
                 className="card mb-3"
                 data-aos="fade-up"
@@ -439,10 +439,10 @@ class Home extends Component {
                   </a>
                 </div>
               </div> 
-            </div>*/}
+            </div>
           </div>
         </div>
-        {/* SKILLS SECTION */}
+        {/* SKILLS SECTION*/}
         <div id="skills" className="container-fluid skills">
           <h1
             className="text-center py-3"
