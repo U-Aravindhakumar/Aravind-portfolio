@@ -382,7 +382,7 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-sm-4">
+            {/* <div className="col-sm-4">
               <div
                 className="card mb-3"
                 data-aos="fade-up"
@@ -438,8 +438,8 @@ class Home extends Component {
                     source code
                   </a>
                 </div>
-              </div>
-            </div>
+              </div> 
+            </div>*/}
           </div>
         </div>
         {/* SKILLS SECTION */}
