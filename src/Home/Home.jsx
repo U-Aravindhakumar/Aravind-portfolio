@@ -295,12 +295,12 @@ class Home extends Component {
                     </ul>
                   </div>
                   <a
-                    href="https://pink-sparkling-salamander.cyclic.app/"
+                    href="https://public.tableau.com/app/profile/aravindhakumar.u/viz/AmazonSalesAnalysis_17086264614540/Dashboard1?publish=yes"
                     rel="noreferrer"
                     target="_blank"
                     className="btn btn-dark mb-2"
                   >
-                    Click to preview
+                    Tableau link
                   </a>
                   <br />
                   <a
@@ -323,7 +323,7 @@ class Home extends Component {
               >
                 <img src={countryinfoimg} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Countries Info</h5>
+                  <h5 className="card-title">T20 WC Analysis</h5>
                   <div className="d-flex flex-row mb-3" id="builtwith">
                     <div className="p-2">
                       <img
@@ -362,12 +362,12 @@ class Home extends Component {
                     </ul>
                   </div>
                   <a
-                    href="https://country-info-detail.netlify.app/"
+                    href="https://public.tableau.com/app/profile/aravindhakumar.u/viz/worldcupplayers/Dashboard1?publish=yes"
                     rel="noreferrer"
                     target="_blank"
                     className="btn btn-dark mb-2"
                   >
-                    Click to preview
+                    Tableau link
                   </a>
                   <br />
                   <a
@@ -377,7 +377,7 @@ class Home extends Component {
                     className="btn btn-dark"
                   >
                     <img src={githubIcon} alt="" />
-                    source code ...
+                    source code
                   </a>
                 </div>
               </div>
@@ -388,48 +388,69 @@ class Home extends Component {
                 data-aos="fade-up"
                 data-aos-duration="2000"
               >
-                <img src={bloodharmonyimg} className="card-img-top" alt="..." />
+                <img
+                  src="https://agrigro.com/wp-content/uploads/2021/02/elements-of-crop-production_featimg.jpg"
+                  className="card-img-top"
+                  alt="..."
+                />
                 <div className="card-body">
-                  <h5 className="card-title">Blood Harmony</h5>
+                  <h5 className="card-title">
+                    Crop production Analysis in IND
+                  </h5>
                   <div className="d-flex flex-row mb-3" id="builtwith">
                     <div className="p-2">
-                      <img src={nodejsSvg} alt="" />
+                      <img
+                        src="https://pluspng.com/img-png/python-logo-png-open-2000.png"
+                        alt=""
+                        width="35px"
+                        height="35px"
+                      />
                     </div>
                     <div className="p-2">
-                      <img src={angularSvg} alt="" />
+                      <img
+                        src="https://optivia.com.au/wp-content/uploads/2020/12/tableau.jpg"
+                        alt=""
+                        width="35px"
+                        height="35px"
+                      />
                     </div>
-                    <div className="p-2">
+                    {/* {/* <div className="p-2">
                       <img src={angularmatSvg} alt="" />
-                    </div>
+                    </div> */}
                     <div className="p-2">
-                      <img src={tailwindcssSvg} alt="" />
+                      <img
+                        src="https://everipedia-storage.s3.amazonaws.com/ProfilePicture/en/Plotly__a0a015/Plotly-logo-01-square.png__95275.png"
+                        alt=""
+                        width="35px"
+                        height="35px"
+                      />
                     </div>
                   </div>
                   <div className="card-text">
                     <ul>
                       <li>
-                        Developed a web application focused on blood donation
-                        compatibility to encourage life-saving contributions.
+                        Crop production Analysis in India project is based on
+                        the year 1997 to 2019 only.
                       </li>
                       <li>
-                        Designed a user-friendly interface for patients and
-                        donors to input blood groups, dynamically checking
-                        compatibility and delivering clear messages on the
-                        suitability for donation.
+                        In this project is used to analyze the crop production
+                        state by state, highly producted crop, highest
+                        production year, production in seation by seation.Then
+                        it's used to Compare the crop production in zone wise.
                       </li>
                     </ul>
                   </div>
                   <a
-                    href="https://bloodharmony.netlify.app/"
+                    href="https://public.tableau.com/app/profile/aravindhakumar.u/viz/cropanalysisinindia/Dashboard1?publish=yes"
                     rel="noreferrer"
                     target="_blank"
                     className="btn btn-dark mb-2"
                   >
-                    Click to preview
+                    Tableau link
                   </a>
                   <br />
                   <a
-                    href="https://github.com/saran-mani/blood-group-compatibility"
+                    href="https://github.com/U-Aravindhakumar/Crop-Production-Analysis-in-India"
                     rel="noreferrer"
                     target="_blank"
                     className="btn btn-dark"
@@ -438,7 +459,7 @@ class Home extends Component {
                     source code
                   </a>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
         </div>
