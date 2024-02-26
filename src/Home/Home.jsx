@@ -43,7 +43,7 @@ class Home extends Component {
             className="navbar-collapse collapse justify-content-end"
             id="navbar"
           >
-            <ul className="navbar-nav ">
+            <ul className="navbar-nav">
               <li className="nav-item">
                 <a href="#home" className="nav-link">
                   Home
@@ -495,7 +495,7 @@ class Home extends Component {
                   data-aos-duration="1500"
                 />
                 <img
-                  src="https://www.tigloo.es/wp-content/uploads/2021/08/Power_BI_Logo-1.png"
+                  src="https://th.bing.com/th/id/R.3a646f7af36c19f92453a872e1a6a329?rik=NGLnMz%2bk6faQkw&riu=http%3a%2f%2fit.miami.edu%2f_assets%2fimages%2fO365_Power_BI.png&ehk=HBpjA2cY61UDu8947P%2f2Gm%2fB0yMsGkb7ZeS3AFO5hBs%3d&risl=&pid=ImgRaw&r=0"
                   alt=""
                   data-aos="zoom-in"
                   data-aos-duration="1600"

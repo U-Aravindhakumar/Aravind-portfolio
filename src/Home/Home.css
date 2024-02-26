@@ -15,7 +15,9 @@
 .navbar .navbar-brand {
   color: var(--text-color);
 }
-
+.navbar-nav .nav-item .nav-link:hover{
+text-decoration: underline 2px black;
+}
 .head {
   padding-top: 5rem;
   background-color: var(--primary-color);
