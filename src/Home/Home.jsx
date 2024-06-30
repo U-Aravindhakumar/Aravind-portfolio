@@ -125,7 +125,7 @@ class Home extends Component {
                 <div data-aos="fade-right" data-aos-duration="1500">
                   {" "}
                   <a
-                    href="https://www.linkedin.com/in/u-aravindhakumar-15b983272/"
+                    href="https://www.linkedin.com/in/aravindhakumar-u-492692309/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -545,7 +545,7 @@ class Home extends Component {
             <div className="col-sm">
               <p>
                 <a
-                  href="https://www.linkedin.com/in/u-aravindhakumar-15b983272/"
+                  href="https://www.linkedin.com/in/aravindhakumar-u-492692309/"
                   target="_blank"
                   rel="noreferrer"
                 >
