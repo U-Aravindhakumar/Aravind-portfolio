@@ -1,5 +1,5 @@
 import { Component } from "react";
-import resume from "../assets/SaranResume.pdf";
+import resume from "../assets/Aravind-resume.pdf";
 import cssIcon from "../assets/icons/css.png";
 import htmlcon from "../assets/icons/html.png";
 import mongodbIcon from "../assets/icons/mongodb.png";
