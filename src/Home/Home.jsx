@@ -465,7 +465,7 @@ class Home extends Component {
                   data-aos-duration="1000"
                 />
                 <img
-                  src="https://www.pngrepo.com/download/373938/numpy.png"
+                  src="https://imgs.search.brave.com/BOXt1Q854vNVgKudHDxipJOgc_Al7SWinjX-hmRd2rk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91c2Vy/LWltYWdlcy5naXRo/dWJ1c2VyY29udGVu/dC5jb20vNjc1ODY3/NzMvMTA1MDQwNzcx/LTQzODg3MzAwLTVh/ODgtMTFlYi05ZjAx/LWJlZTEwMGI5ZWYy/Mi5wbmc"
                   alt=""
                   data-aos="zoom-in"
                   data-aos-duration="1100"
